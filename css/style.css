@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cairo', Arial;
+  padding-bottom: 30px;
+}
+
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  max-width: 95%;
+  text-align: center;
+}
+
+.heading {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.author {
+  font-size: 20px;
+  background-color: aliceblue;
+  color: black;
+  margin-top: 10px;
+  line-height: 1.6;
+  padding: 4px 0;
+}
+
+.notes {
+  text-align: right;
+}
+
+.notes__title {
+  color: red;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.saad-img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+table {
+  background-color: aliceblue;
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+table, td, th {
+  border: 1px solid black;
+}
+
+@media (max-width: 1030px) {
+  .out-degree {
+    display: none;
+  }
+}
+@media (max-width: 970px) {
+  .term-1 {
+    display: none;
+  }
+
+  .author {
+    margin-bottom: 30px;
+  }
+
+  .notes-list__item {
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  td, th {
+    display: none;
+  }
+
+  .order-el,
+  .id-el,
+  .name-el,
+  .total-el,
+  .percentage-el {
+    display: table-cell;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width: 340px) {
+  .id-el {
+    display: none;
+  }
+}
